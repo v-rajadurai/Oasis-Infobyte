@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #74909c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://wallpapers.com/images/high/trees-covered-in-freezing-temperature-snow-a3yp8k5er4fw1wjo.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.converter-container {
+    background-color: #7d8db4;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(15, 14, 14, 0.1);
+    text-align: center;
+    width: 350px;
+    max-width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    /* color: #f8f2f2; */
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-wrapper {
+    width: 45%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #000000;
+}
+
+input, select{
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: 16px;
+    background-color: #d3dde9; /* Change this to your desired color */
+    color: #06070b; /* Text color */
+}
+ button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: 16px;
+   
+}
+
+button {
+    background-color: #b8d4f3;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e3e8ed;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fffcfc;
+}

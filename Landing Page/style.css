@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'josefin Sans',sans-serif;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://cdn.wallpapersafari.com/44/98/WvEuJC.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: -4s;
+}
+.btn{
+    background-color: #272426;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform -4s;
+    
+}
+.btn:hover{
+    transform: scale(1.5);
+}
+.logo{
+    color: white;
+    font-style: italic;
+    /* background-image: url(https://assets.designhill.com/design-blog/wp-content/uploads/2023/12/2-1-1.jpg); */
+}
+span{
+    color: white;
+    font-size: x-large;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    
+}
+h2{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 40px;
+    font-style: italic;
+}
